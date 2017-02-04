@@ -1,0 +1,41 @@
+.splash {
+  background-color: #DDDDDD;
+  height: 600px;
+  padding: 10px 0px;
+}
+
+.block {
+  padding: 40px 0px;
+}
+
+.block-what-is-bloom {
+  background-color: #F4FFE0;
+}
+
+.block-how-does-it-work {
+  background-color: #B7EF9C;
+}
+
+.block-learn-as-you-go {
+  background-color: #F0F0F0;
+}
+
+.block-access-to-experts {
+  background-color: #F4FFE0;
+}
+
+.block-search-the-database {
+  background-color: #B7EF9C;
+}
+
+/*
+  #F4FFE0
+  #B7EF9C
+  #88F159
+  
+  #D9F5BE
+  #CCEBC0
+  #91CED7
+  #64C4AF
+  #59AE7F
+*/
