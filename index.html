@@ -31,7 +31,7 @@
             </div>
             <div class='row cta'>
               <div class='col-xs-12'>
-                <a href='javascript:void(0)' class='btn btn-primary goto-cta'>Sign Up</a>
+                <a href='http://app.plantwithbloom.com' class='btn btn-primary goto-cta'>Sign Up</a>
               </div>
             </div>
 
@@ -110,32 +110,9 @@
         </div>
       </div>
 
-      <div class='row' id='cta-form'>
-        <div class='col-xs-12'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-md-8 col-md-offset-2 sign-up'>
-                <h2 class='text-center'>Sign Up for Early Access</h2>
-                <p class='text-center'>Bloom is still sprouting, but we'll be ready by early March.</p>
-                <div class='alert alert-success cta-success' style='display: none'>Thank you! We'll let you when we're ready to plant!</div>
-                <div class='alert alert-danger cta-error' style='display: none'></div>
-                <hr/>
-                <form>
-                  <div class="form-group">
-                    <label for="inputEmail">Email address</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                  </div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" id='newsletter'> Get our newsletter for landscaping tips and product updates.
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-default cta-sign-up-button">Sign Up</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class='text-center cta'>
+        <h3>Ready to start designing?</h3>
+        <a class='btn btn-primary' href='http://app.plantwithbloom.com'>Sign Up</a>
       </div>
 
       <div class='row footer'>
@@ -161,39 +138,5 @@
     ga('create', 'UA-91403149-1', 'auto');
     ga('send', 'pageview');
 
-  </script>
-
-  <script type='text/javascript'>
-    $(".goto-cta").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#cta-form").offset().top
-      }, 500);
-    });
-
-    $('.cta-sign-up-button').click(function(e){
-      e.preventDefault();
-      var email = $('#inputEmail').val();
-      var newsletter = $('#newsletter').prop('checked') ? 'true' : 'false';
-
-      $('.cta-error').hide();
-      $('.cta-success').hide();
-
-      $.ajax({
-        method: 'POST',
-        url: 'http://api-search.plantwithbloom.com/early_sign_up',
-        data: {email: email, newsletter},
-        success: function(){
-          $('.cta-success').fadeIn();
-        },
-        error: function(xhr, status, errorThrown){
-          $('.cta-error').fadeIn();
-          if(xhr.responseJSON.errors && xhr.responseJSON.errors.email){
-            $('.cta-error').html('Email ' + xhr.responseJSON.errors.email[0]);
-          } else {
-            $('.cta-error').html('Oh no! Something wen\'t wrong. We\'re looking into it!');
-          }
-        }
-      });
-    });
   </script>
 </html>
