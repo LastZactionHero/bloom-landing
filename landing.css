@@ -76,6 +76,11 @@ body {
 .block .preview-icon {
   display: none;
 }
+
+.block .preview-image {
+  margin-top: 80px;
+}
+
 @media (min-width: 768px) {
   .block .preview-icon {
     font-size: 180px;
@@ -126,6 +131,8 @@ body {
 .block-access-to-experts {
   border-left: 24px solid #27ae60;
 }
+
+
 @media (min-width: 768px) {
   .block-access-to-experts {
     border-right: 24px solid #27ae60;
