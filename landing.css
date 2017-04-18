@@ -65,6 +65,16 @@ body {
   font-weight: 200;
 }
 
+.cta .btn-default {
+  background-color: #white;
+  border: 1px solid #2c3e50;
+  border-radius: 0px;
+  font-size: 20px;
+  padding: 16px 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
 .block {
   padding: 80px 0px;
 }
@@ -132,6 +142,9 @@ body {
   border-left: 24px solid #27ae60;
 }
 
+.city-links {
+  margin-top: 60px;
+}
 
 @media (min-width: 768px) {
   .block-access-to-experts {
@@ -158,6 +171,63 @@ body {
 .footer a {
   color: #ecf0f1;
 }
+
+.bed {
+  margin: 20px 0px;
+}
+.bed-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.bed-title {
+  font-size: 20px;
+}
+.bed-dimensions {
+  font-size: 14px;
+  color: #95a5a6;
+}
+.bed-description {
+  font-size: 14px;
+}
+
+.plant-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 120px;
+}
+
+.plant-label {
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #2c3e50;
+}
+
+.plant-search-result {
+  height: 125px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.plant-search-result-name {
+  background-color: white;
+  opacity: 0.8;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  padding: 4px;
+  right: 0px;
+  left: 0px;
+}
+
 /*
   #F4FFE0
   #B7EF9C
