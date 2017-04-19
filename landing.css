@@ -23,6 +23,10 @@ body {
   }
 }
 
+.splash.splash-short {
+  height: 200px;
+}
+
 .splash .title {
   margin-top: 60px;
   border-bottom: 1px solid black;
@@ -55,14 +59,23 @@ body {
     text-align: left;
   }
 }
-.cta .btn-primary {
-  background-color: #27ae60;
-  border: none;
+
+.btn {
   border-radius: 0px;
-  font-size: 20px;
-  padding: 16px 24px;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.btn-primary {
+  border: none;
+  background-color: #27ae60;
+}
+
+.cta .btn-primary {
+  font-size: 20px;
+  padding: 16px 24px;
 }
 
 .cta .btn-default {
@@ -197,6 +210,9 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   height: 120px;
+}
+.plant-image.plant-image-large {
+  height: 400px;
 }
 
 .plant-label {

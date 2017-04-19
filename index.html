@@ -338,7 +338,7 @@
         for(var i = 0; i < data.plants.length; i++){
           var plant = data.plants[i];
           var nameDiv = $('<div>').addClass('plant-search-result-name').text(plant.common_name);
-          var resultDiv = $('<a>').attr('href', 'http://app.plantwithbloom.com/search').addClass('col-xs-4 col-sm-2 plant-search-result').css('background-image', 'url("' + plant.image_url + '")')
+          var resultDiv = $('<a>').attr('href', 'plants/' + plant.permalink + '.html').addClass('col-xs-4 col-sm-2 plant-search-result').css('background-image', 'url("' + plant.image_url + '")')
           resultDiv.append(nameDiv);
           $('.demo-search').append(resultDiv);
         }
