@@ -1,0 +1,55 @@
+body { padding-top: 70px; }
+
+.combination-select {
+  background-color: red;
+  position: relative;
+}
+
+.plant-selected-container {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+.plant-selected-container .plant-selected {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid #2c3e50;
+  padding: 8px;
+  background-color: #ecf0f1;
+}
+
+.combination-select .plant-unselected-container {
+  position: absolute;
+  width: 33.333%;
+}
+
+.combination-select .plant-unselected-container .plant-unselected {
+  border: 1px solid #2c3e50;
+  padding: 8px;
+  background-color: #ecf0f1;
+}
+
+.combination-select .plant-unselected-container.minus_1 {
+  left: 16.66%;
+}
+
+.combination-select .plant-unselected-container.minus_2 {
+  left: 8.33%;
+}
+
+.combination-select .plant-unselected-container.minus_3 {
+  left: 0%;
+}
+
+.combination-select .plant-unselected-container.plus_1 {
+  right: 16.66%
+}
+
+.combination-select .plant-unselected-container.plus_2 {
+  right: 8.33%
+}
+
+.combination-select .plant-unselected-container.plus_3 {
+  right: 0%;
+}
