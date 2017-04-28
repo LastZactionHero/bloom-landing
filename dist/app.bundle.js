@@ -9557,6 +9557,15 @@ class SimilarSearch extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Compon
     });
   }
 
+  fetchRandomPlant() {
+    this.fetchStartingPlant();
+    this.scrollToPlant();
+  }
+
+  scrollToPlant() {
+    __WEBPACK_IMPORTED_MODULE_1_jquery___default()("html, body").animate({ scrollTop: __WEBPACK_IMPORTED_MODULE_1_jquery___default()('#similar-search').offset().top }, 1000);
+  }
+
   fetchSimilarPlants(plant) {
     let url = `http://api-search.plantwithbloom.com/search/similar?permalink=${plant.permalink}&result_count=12`;
     if (this.state.zone) {
@@ -9575,6 +9584,7 @@ class SimilarSearch extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Compon
   selectPlant(plant) {
     this.setState({ plant: plant, similarPlants: [], searchResults: [], searchName: '' });
     this.fetchSimilarPlants(plant);
+    this.scrollToPlant();
   }
 
   handleUpdateZipcode(event) {
@@ -9715,7 +9725,7 @@ class SimilarSearch extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Compon
               'a',
               { href: 'javascript:void(0)',
                 className: 'btn btn-info',
-                onClick: this.fetchStartingPlant.bind(this) },
+                onClick: this.fetchRandomPlant.bind(this) },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-random', 'aria-hidden': 'true' }),
               ' Random Plant'
             )
@@ -9755,7 +9765,7 @@ class SimilarSearch extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Compon
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'div',
-          null,
+          { className: 'row' },
           this.state.similarPlants.map(plant => {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__SimilarResult__["a" /* default */], { plant: plant,
               comparisionPlant: this.state.plant,
@@ -9932,7 +9942,7 @@ class SimilarResult extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Compon
   render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: 'similar-plant-result' },
+      { className: 'similar-plant-result col-md-1 col-sm-3' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: `plant-search-result`,
         style: { display: 'block', backgroundImage: `url(${this.props.plant.image_url})` },
         onClick: this.handleClick.bind(this) }),

@@ -253,9 +253,13 @@ body {
 }
 
 .similar-plant-result {
-  width: 8.33%;
+  /*width: 8.33%;
   float: left;
-  position: relative;
+  position: relative;*/
+}
+
+.similar-plant-result .plant-search-result {
+  margin: -0px -15px;
 }
 
 .similar-plant-result .name {

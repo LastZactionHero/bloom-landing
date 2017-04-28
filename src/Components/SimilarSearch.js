@@ -34,6 +34,15 @@ class SimilarSearch extends React.Component {
     });
   }
 
+  fetchRandomPlant() {
+    this.fetchStartingPlant();
+    this.scrollToPlant();
+  }
+
+  scrollToPlant() {
+    $("html, body").animate({ scrollTop: $('#similar-search').offset().top }, 1000);
+  }
+
   fetchSimilarPlants(plant) {
     let url = `http://api-search.plantwithbloom.com/search/similar?permalink=${plant.permalink}&result_count=12`;
     if(this.state.zone) { url += `&zone=${this.state.zone}` }
@@ -50,6 +59,7 @@ class SimilarSearch extends React.Component {
   selectPlant(plant) {
     this.setState({plant: plant, similarPlants: [], searchResults: [], searchName: ''})
     this.fetchSimilarPlants(plant);
+    this.scrollToPlant();
   }
 
   handleUpdateZipcode(event) {
@@ -149,7 +159,7 @@ class SimilarSearch extends React.Component {
                 <hr/>
                 <a href='javascript:void(0)' 
                    className='btn btn-info'
-                   onClick={this.fetchStartingPlant.bind(this)}><i className="fa fa-random" aria-hidden="true"></i> Random Plant</a>
+                   onClick={this.fetchRandomPlant.bind(this)}><i className="fa fa-random" aria-hidden="true"></i> Random Plant</a>
               </div>
             </div>
             : null
@@ -163,7 +173,7 @@ class SimilarSearch extends React.Component {
             <div className='col-md-8'>&nbsp;</div>
             <div className='col-md-2'><strong>Less Similar</strong></div>
           </div>
-          <div>
+          <div className='row'>
             {this.state.similarPlants.map( (plant) => {
               return <SimilarResult plant={plant} 
                                     comparisionPlant={this.state.plant} 

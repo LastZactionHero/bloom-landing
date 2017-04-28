@@ -7,7 +7,7 @@ class SimilarResult extends React.Component {
 
   render() {
     return(
-      <div className='similar-plant-result'>
+      <div className='similar-plant-result col-md-1 col-sm-3'>
         <div className={`plant-search-result` } 
              style={{display: 'block', backgroundImage: `url(${this.props.plant.image_url})`}}
              onClick={this.handleClick.bind(this)}>
