@@ -15,7 +15,7 @@ module.exports = {
         loader: "babel-loader",
         query:
           {
-            presets:['react']
+            presets:["react"]
           }
       }
       // {test: /\.(js|jsx)$/, use: 'babel-loader'}

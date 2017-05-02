@@ -267,6 +267,9 @@ body {
   padding: 6px 8px;
 }
 
+.navbar-brand .fa-leaf {
+  color: #27ae60;
+}
 /*
   #F4FFE0
   #B7EF9C
