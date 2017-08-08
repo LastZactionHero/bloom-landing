@@ -1,0 +1,47 @@
+---
+layout: page
+title: Snowmound Spirea
+---
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="plant-image plant-image-large" style="background-image: url(&quot;https://s3-us-west-1.amazonaws.com/images.plantwithbloom.com/snowmound_spirea.jpg&quot;);"></div>
+  </div>
+  <div class="col-md-8">
+    <div>
+      <p>Easy to grow, compact shrub with graceful, spreading branches and spectacular clusters of white flowers in mid to late spring. Use at the back of the border or as an accent. Cut flowers make beautiful arrangements. Deciduous. Spring Flowering. Attracts Butterflies. Easy Care. Compact Form. Fall Color. Tolerates Urban Pollution.</p>
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Size</strong>
+        </div>
+        <div class="col-md-9">48.0" W X 48.0" H</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Type</strong>
+        </div>
+        <div class="col-md-9">Deciduous Shrub</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Flower Color</strong>
+        </div>
+        <div class="col-md-9">White</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Foliage Color</strong>
+        </div>
+        <div class="col-md-9">Green</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <strong>Lighting</strong>
+        </div>
+        <div class="col-md-9">Partial to full sun</div>
+      </div>
+    </div>
+    <hr/>
+    <a class="btn btn-default" href="http://app.plantwithbloom.com/search">Discover More Plants Like This</a>
+  </div>
+</div>
