@@ -21,11 +21,7 @@ layout: home
       </div>
       <div class="row cta">
         <div class="col-xs-12">
-          <a href="http://app.plantwithbloom.com" class="btn btn-primary goto-cta">Get Started</a>
-        </div>
-      </div>
-<pre data-md-type="spec"><code>&lt;/div&gt;
-</code></pre>
+          <a href="http://app.plantwithbloom.com" class="btn btn-primary goto-cta">Get Started</a></div></div>
   </div>
 </div>
 <div class="row block block-what-is-bloom">
@@ -54,7 +50,7 @@ layout: home
           We narrow this down to plants that will grow well for you, accounting for each bed's location, sunlight, soil moisture, and what looks good together.
         </p>
         <a class="btn btn-primary" href="http://app.plantwithbloom.com/search">Start Searching</a>
-        <a class="btn btn-default" href="/combination">Explore Similar Plants</a>
+        <a href="https://app.forestry.io/combination.html">Explore Similar Plants</a>
         <hr>
       <div class="row demo-search" id="demo-search">
       </div>
