@@ -30,6 +30,8 @@ plugins:
 source:      site
 destination: _deploy
 
+google_analytics: UA-91403149-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

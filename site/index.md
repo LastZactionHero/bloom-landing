@@ -58,7 +58,7 @@ layout: home
         <a class='btn btn-primary' href='http://app.plantwithbloom.com/search'>Start Searching</a>
         <a class='btn btn-default' href='/combination'>Explore Similar Plants</a>
         <hr/>
-      <div class='row demo-search'>
+      <div class='row demo-search' id='demo-search'>
       </div>
     </div>
   </div>
