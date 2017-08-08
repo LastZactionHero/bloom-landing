@@ -1,8 +1,6 @@
 ---
 layout: home
 ---
-
-
 <div class="row splash">
   <div class="col-xs-12">
     <div class="container">
@@ -23,6 +21,7 @@ layout: home
         <div class="col-xs-12">
           <a href="http://app.plantwithbloom.com" class="btn btn-primary goto-cta">Get Started</a></div></div>
   </div>
+</div>
 </div>
 <div class="row block block-what-is-bloom">
   <div class="col-xs-12">
