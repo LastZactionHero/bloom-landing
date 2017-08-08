@@ -2,76 +2,73 @@
 layout: home
 ---
 
-<div class='row splash'>
-  <div class='col-xs-12'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-xs-12'>
-          <div class='title'>
+
+<div class="row splash">
+  <div class="col-xs-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="title">
             <h1>Bloom</h1>
-            <div class='subtitle'>Landscape Assistant</div>
+            <div class="subtitle">Landscape Assistant</div>
           </div>
         </div>
       </div>
-      <div class='row'>
-        <div class='col-xs-12 col-md-4 short-description'>
+      <div class="row">
+        <div class="col-xs-12 col-md-4 short-description">
           Your personal landscape design professional-
-          pick the right plants for the right places.
+          pick the right plants for the right places.&nbsp;</div>
+      </div>
+      <div class="row cta">
+        <div class="col-xs-12">
+          <a href="http://app.plantwithbloom.com" class="btn btn-primary goto-cta">Get Started</a>
         </div>
       </div>
-      <div class='row cta'>
-        <div class='col-xs-12'>
-          <a href='http://app.plantwithbloom.com' class='btn btn-primary goto-cta'>Get Started</a>
-        </div>
-      </div>
-
-    </div>
+<pre data-md-type="spec"><code>&lt;/div&gt;
+</code></pre>
   </div>
 </div>
-
-<div class='row block block-what-is-bloom'>
-  <div class='col-xs-12'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-xs-12 col-sm-5 col-sm-offset-2'>
+<div class="row block block-what-is-bloom">
+  <div class="col-xs-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-2">
           <h2>What is Bloom?</h2>
           <p>Bloom guides you to <strong>create a unique landscape design</strong> for your home. We help novice gardeners make stylish and intelligent plant and landscape choices.</p>
           <p>What plants go well together? What flowers will grow best in my shady side yard? How far apart should shrubs be spaced?</p>
           <p>Bloom takes the guesswork out of great design. Our tool is <strong>designed by industry experts</strong> and a database of <strong>over 5000 plants</strong>.</p>
         </div>
-        <div class='col-xs-12 col-sm-5 text-center'>
-          <img src="./images/full_layout.png" width="100%" class='preview-image'/>
+        <div class="col-xs-12 col-sm-5 text-center">
+          <img src="images/full_layout.png" width="100%" class="preview-image">
           <small>Design professional layouts</small>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class='row block block-what-is-bloom'>
-  <div class='col-xs-12'>
-    <div class='container cta'>
+<div class="row block block-what-is-bloom">
+  <div class="col-xs-12">
+    <div class="container cta">
       <h2>Explore a database of over 5000 plants</h2>
       <p>Plan your beds from our extensive database of plants. 
-          We narrow this down to plants that will grow well for you, accounting for each bed&apos;s location, sunlight, soil moisture, and what looks good together.
+          We narrow this down to plants that will grow well for you, accounting for each bed's location, sunlight, soil moisture, and what looks good together.
         </p>
-        <a class='btn btn-primary' href='http://app.plantwithbloom.com/search'>Start Searching</a>
-        <a class='btn btn-default' href='/combination'>Explore Similar Plants</a>
-        <hr/>
-      <div class='row demo-search' id='demo-search'>
+        <a class="btn btn-primary" href="http://app.plantwithbloom.com/search">Start Searching</a>
+        <a class="btn btn-default" href="/combination">Explore Similar Plants</a>
+        <hr>
+      <div class="row demo-search" id="demo-search">
       </div>
     </div>
   </div>
 </div>
-
-<div class='row block block-how-does-it-work'>
-  <div class='col-xs-12'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-xs-12 col-sm-5 col-sm-offset-1 text-center'>
-          <img src="./images/bed_builder.png" width="100%" class='preview-image' />
+<div class="row block block-how-does-it-work">
+  <div class="col-xs-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-1 text-center">
+          <img src="images/bed_builder.png" width="100%" class="preview-image">
         </div>
-        <div class='col-xs-12 col-sm-5'>
+        <div class="col-xs-12 col-sm-5">
           <h2>How does it work?</h2>
           <p>Bloom collects some basic information about your yard- in particular, your zipcode and some details about your garden beds.</p>
           <p>From there, <strong>Bloom walks you through picking a style, design, and plants</strong>. Our recommendations are based on your personal preferences and the individual characteristics of the bed- daily sunlight, soil moisture, complementary plants, etc.</p>
@@ -80,32 +77,30 @@ layout: home
     </div>
   </div>
 </div>
-
-<div class='row block block-learn-as-you-go'>
-  <div class='col-xs-12'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-xs-12 col-sm-5 col-sm-offset-2'>
+<div class="row block block-learn-as-you-go">
+  <div class="col-xs-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-2">
           <h2>Learn as you go</h2>
           <p>Bloom is a teacher- we explain the reasons and fundamentals behind each step, empowering you to <strong>make great landscape choices on your own</strong>.</p>
         </div>
-        <div class='col-xs-12 col-sm-5 text-center'>
-          <img src="./images/pro_tip.png" width="100%" class='preview-image' />
+        <div class="col-xs-12 col-sm-5 text-center">
+          <img src="images/pro_tip.png" width="100%" class="preview-image">
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class='row block block-access-to-experts'>
-  <div class='col-xs-12'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-sm-4 col-sm-offset-1 col-xs-12 text-center'>
+<div class="row block block-access-to-experts">
+  <div class="col-xs-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-1 col-xs-12 text-center">
           <h3>Access to experts</h3>
           <p>Have a specific question about your yard? Schedule a call with our in-house landscape designer.</p>
         </div>
-        <div class='col-sm-4 col-sm-offset-2 col-xs-12 text-center'>
+        <div class="col-sm-4 col-sm-offset-2 col-xs-12 text-center">
           <h3>Search the database</h3>
           <p>Dig through our database of over 5000 plants.</p>
         </div>
@@ -113,16 +108,14 @@ layout: home
     </div>
   </div>
 </div>
-
-<div class='text-center cta'>
+<div class="text-center cta">
   <h3>Ready to start designing?</h3>
-  <a class='btn btn-primary' href='http://app.plantwithbloom.com'>Get Started</a>
+  <a class="btn btn-primary" href="http://app.plantwithbloom.com">Get Started</a>
 </div>
-
-<div class='city-links'>
-  <div class='container'>
-  <h3 class='text-center'>Bloom in Your City</h3>
-  <div class='row'>
+<div class="city-links">
+  <div class="container">
+  <h3 class="text-center">Bloom in Your City</h3>
+  <div class="row">
     <div class="col-md-3"><a href="/samples/new_york_new_york.html">New York, New York</a></div>
     <div class="col-md-3"><a href="/samples/los_angeles_california.html">Los Angeles, California</a></div>
     <div class="col-md-3"><a href="/samples/philadelphia_pennsylvania.html">Philadelphia, Pennsylvania</a></div>
@@ -274,4 +267,4 @@ layout: home
     <div class="col-md-3"><a href="/samples/albany_new_york.html">Albany, New York</a></div>
     <div class="col-md-3"><a href="/samples/durham_north_carolina.html">Durham, North Carolina</a></div>
   </div>
-</div>
+</div></div></div>
