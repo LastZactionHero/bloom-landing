@@ -44,4 +44,4 @@ Here is an example for **Zone 5**, featuring a large flowering shrub and some sh
 <div class="text-center">
   <a data-pin-do="embedUser" data-pin-board-width="900" data-pin-scale-height="480" data-pin-scale-width="80" href="https://www.pinterest.com/b_landscape/modernlinear-garden-beds/"></a>
 </div>
-<script type="null"></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
