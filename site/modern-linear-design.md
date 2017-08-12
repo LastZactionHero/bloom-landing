@@ -4,7 +4,9 @@ title: Modern-Linear Design
 permalink: "/modern-linear-design/"
 preview_image_url: "/images/modern-linear-a.png"
 ---
-One of the more simple approaches to landscape design.  This style often takes advantage of minimalism with less plant varieties, linear plantings and attention to form.  Not meant for every residence but can make a strong statement if done properly.
+
+
+A modern/linear design is one of the more simple approaches to landscaping.  This style often takes advantage of minimalism with less plant varieties, linear plantings and attention to form.  Not meant for every residence but can make a strong statement if done properly.
 
 Here is an example for **Zone 5**, featuring a large flowering shrub and some short groundcover. You can design your own using the [Bloom app](http://app.plantwithbloom.com).
 
@@ -46,4 +48,4 @@ Here is an example for **Zone 5**, featuring a large flowering shrub and some sh
 <div class="text-center">
   <a data-pin-do="embedUser" data-pin-board-width="900" data-pin-scale-height="480" data-pin-scale-width="80" href="https://www.pinterest.com/b_landscape/modernlinear-garden-beds/"></a>
 </div>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script type="null"></script>
