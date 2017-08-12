@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Modern-Linear Design
+permalink: modern-linear-design
 ---
 One of the more simple approaches to landscape design.  This style often takes advantage of minimalism with less plant varieties, linear plantings and attention to form.  Not meant for every residence but can make a strong statement if done properly.
 
