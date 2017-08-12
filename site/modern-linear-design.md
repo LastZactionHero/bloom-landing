@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Modern-Linear Design
-permalink: "/modern-linear-design/"
+permalink: "/modern-linear-landscape-design/"
 preview_image_url: "/images/modern-linear-a.png"
+title: Modern-Linear Design
 ---
 
 
